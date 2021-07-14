@@ -34,7 +34,7 @@ body{
     justify-content:center;
 }
 
-.banner-title h1{
+.banar-tag h1{
     width: 485px;
     font-size: 64px;
     line-height: 80px;
@@ -62,7 +62,7 @@ body{
     line-height: 24px;
     font-weight: 500;
 }
-.banner-image img{
+.banar-pic img{
     width: 556.01px;
     height: 438px;
     align-items: center;
@@ -86,13 +86,13 @@ body{
     }
 }
 
-.banner-image img:hover{
+.banar-pic img:hover{
     animation: sliding 2s ease-in-out 0.5s infinite alternate;
 }
 
 /* --- Football Players styles --- */
 
-.football-players{
+.all-players{
     background-color: #FFFFFF;
     width: 100%;
     /* padding: 20% 5%; */
@@ -116,7 +116,7 @@ body{
    padding: 15px 15px 35px 15px;
 }
 
-.player-thumbnail img{
+.players-thumbnail img{
     width: 100%;
     height: 256px;
 }
