@@ -43,7 +43,7 @@ body{
     color: #FFFFFF;
   
 }
-.banner-button{
+.link-button{
     background: #E02C6D;
     color: #FFFFFF;
     width: 168px;
@@ -54,7 +54,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.banner-button a{
+.link-button a{
     color: #FFFFFF;
     text-decoration: none;
     margin-right: 8px;
