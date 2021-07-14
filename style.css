@@ -1,3 +1,237 @@
-h1{
-    color: blue;
+/* --- google fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,600;0,700;1,500;1,600&display=swap');
+/* --- google fonts end --- */
+
+
+/* --- common styles ---*/
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--- copa football banner styles --- */
+.container{
+    background-color: #2D25A0;
+    width: 100%;
+    padding: 67px 0px 87px 0px;
+}
+
+.copa-stk{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.brazil-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.banner-title h1{
+    width: 485px;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+  
+}
+.banner-button{
+    background: #E02C6D;
+    color: #FFFFFF;
+    width: 168px;
+    height: 44px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.banner-button a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.banner-image img{
+    width: 556.01px;
+    height: 438px;
+    align-items: center;
+
+ /* --- football banner hover --- */
+}
+@keyframes sliding{ 
+
+    0%{
+        left: 0;
+        top: 0;
+        transform: scale(0.5);
+    }
+
+    50%{
+        top: 0;
+    }
+    
+    100%{
+        top: 0;
+    }
+}
+
+.banner-image img:hover{
+    animation: sliding 2s ease-in-out 0.5s infinite alternate;
+}
+
+/* --- Football Players styles --- */
+
+.football-players{
+    background-color: #FFFFFF;
+    width: 100%;
+    /* padding: 20% 5%; */
+    justify-content: center;
+    align-items: center;    
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 11%;
+}
+
+.player{
+   background: #FFFFFF;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   padding: 15px 15px 35px 15px;
+}
+
+.player-thumbnail img{
+    width: 100%;
+    height: 256px;
+}
+
+.player-title h2{
+    color: #18191F;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.player-details p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300px;
+}
+
+
+/*---  Copa Football Highlights styles --- */
+.container-highlights{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 100px 0px 87px 0px;
+}
+
+.football-highlights{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.highlights-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.highlights-title h1{
+    width: 485px;
+    font-size: 48px;
+    line-height: 80px;
+    font-weight: 700;
+    font-style: normal;
+    color: #0A0826;
+}
+
+.highlights-title p{
+    width: 404px;
+    height: 113px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;
+    color: #6C6C6C;
+}
+
+.highlights-button{
+    background: #E02C6D;
+    color: #FFFFFF;
+    width: 168px;
+    height: 44px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.highlights-button a{
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.highlights-image img{
+    width: 567px;
+    height: 427px;
+    align-items: center;
+}
+
+/* ---  footer styles  --- */
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12vh;  
+    margin-bottom: 32vh;
+}
+.footer{
+    width: 484px;
+    height: 110px;  
+}
+.footer div{
+    text-align: center;
+}
+.footer img{
+    width: 483.87px;
+    height: 110px;
+}
+.fab.icon{
+    color: #969bab;
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    background-color: #e7e7e8;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    padding: 3%;
+    margin: 10px;
+}
+div p{
+    font-size: 18px;
 }
